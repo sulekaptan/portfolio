@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Nav = () => {
 
@@ -46,7 +45,7 @@ const Nav = () => {
       </div>
 
 
-      <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className=
             {nav 
                 ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' 
