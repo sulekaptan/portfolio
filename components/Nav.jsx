@@ -25,7 +25,7 @@ const Nav = () => {
             <Link href='#'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Anasayfa</li>
             </Link>
-            <Link href='/'>
+            <Link href='/about'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Hakkında</li>
             </Link>
             <Link href='/'>
