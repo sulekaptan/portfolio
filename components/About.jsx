@@ -8,8 +8,8 @@ const About = () => {
         <div className='col-span-2'>
           <p className='py-4 text-xl tracking-widest '>Hakkımda</p>
           <h2 className='py-4'>Şule Kimdir?</h2>
-          <p className='py-2 '>10 Mart 2000 Kastamonu doğumluyum. 2022 yılında 
-            Samsun Ondokuz Mayıs Üniversitesi, Bilgisayar Mühendisliğinden mezun oldum.
+          <p className='py-2 '>10 Mart 2000 Kastamonu doğumluyum. Temmuz 2022'de
+            Ondokuz Mayıs Üniversitesi, Bilgisayar Mühendisliği'nden mezun oldum.
             O zamandan beri kendimi front-end alanında geliştirmeye çalışıyorum.
           </p>
           <p className='py-2'>Gerek çeşitli eğitimlerle gerekse kendi çabamla her geçen gün yeni beceriler 
