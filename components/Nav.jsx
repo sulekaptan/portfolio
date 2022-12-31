@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub, FaTwitter, FaMedium } from 'react-icons/fa'
-
+import logo from '../public/assets/logo.png'
 const Nav = () => {
 
   const [nav, setNav] = useState(false)
@@ -16,7 +16,7 @@ const Nav = () => {
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Image
-          src="/../public/assets/logo.png"
+          src={logo}
           alt='/'
           width='50'
           height='50' />
