@@ -1,5 +1,6 @@
 import React from 'react'
-
+import sule from './/../public/assets/suleka.jpeg'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -8,9 +9,17 @@ const About = () => {
         <div className='col-span-2'>
           <p className='py-4 text-xl tracking-widest '>Hakkımda</p>
           <h2 className='py-4'>Şule Kimdir?</h2>
-          <p className='py-2 '>10 Mart 2000 Kastamonu doğumluyum. Temmuz 2022'de
+          <p className='py-2 '>Temmuz 2022'de
             Ondokuz Mayıs Üniversitesi, Bilgisayar Mühendisliği'nden mezun oldum.
-            O zamandan beri kendimi front-end alanında geliştirmeye çalışıyorum.
+            Ağustos ayında Techcareer.net tarafından düzenlenen 40 saatlik bir "Backend with C#" bootcamp'ine
+            katılma fırsatı buldum. Fakat bu alan bana göre değildi. Bu yüzden,
+            o zamandan beri kendimi front-end alanında geliştirmeye çalışıyorum.
+          </p>
+          <p className='py-2'>Daha sonra Archi's Academy tarafından verilen bir front-end 
+            eğitimine kabul edildim. Burada yaklaşık dört ay boyunca HTML, CSS,
+            JavaScript, React, Next.js, Tailwind CSS gibi teknolojileri öğrendim.
+            Çeşitli projeler geliştirdim. 
+
           </p>
           <p className='py-2'>Gerek çeşitli eğitimlerle gerekse kendi çabamla her geçen gün yeni beceriler 
             kazanmaya çalışıyorum. Çalışmalarıma GitHub hesabımdan ulaşabilirsiniz.
@@ -19,8 +28,8 @@ const About = () => {
             Projelerime git.
           </p>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <img className='rounded-xl' src='https://png.pngtree.com/png-clipart/20201225/ourlarge/pngtree-cute-girls-shop-avatar-png-image_2603683.jpg' alt='/'/>
+        <div className='w-full h-auto m-auto shadow-xl rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+          <Image className='rounded-xl' src={sule} alt='/'/>
         </div>
 
       </div>

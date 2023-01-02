@@ -29,13 +29,13 @@ const Nav = () => {
               <li className='ml-10 text-sm uppercase hover:border-b'>Hakkında</li>
             </Link>
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Beceriler</li>
+              <li className='ml-10 text-sm uppercase hover:border-b'>BECERİLER</li>
             </Link>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Projeler</li>
             </Link>
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>İletişim</li>
+              <li className='ml-10 text-sm uppercase hover:border-b'>İLETİŞİM</li>
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
