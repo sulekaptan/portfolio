@@ -7,7 +7,7 @@ import sticker from '../public/assets/sticker.png'
 
 const Contact = () => {
   return (
-    <div className='w-full lg:h-screen'>
+    <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         <h2 className='text-2xl tracking-widest py-4'>İletişim</h2>
         <div className='grid lg:grid-cols-3 gap-5'>
@@ -36,13 +36,13 @@ const Contact = () => {
                     <textarea placeholder='Mesajınızı giriniz.' className='border-2 rounded-lg p-3 border-gray-300' cols="30" rows="3"></textarea>
                   </div>
 
-                </div>
+                </div> 
 
                 <button className='w-full p-4 text-gray-100 mt-4'>Gönder</button>
               </form>
             </div>
           </div>
-          <div className='col-span-2 lg:col-span-1 w-full h-full m-auto items-center rounded-xl p-4'>
+          <div className='col-span-2 lg:col-span-1 w-full h-full m-auto  rounded-xl p-4'>
             <div>
               <Image src={sticker} />
             </div>

@@ -10,7 +10,7 @@ import sass from './/../public/assets/skills/sass-icon.png'
 
 const Skills = () => {
     return (
-        <div className='w-full lg:h-screen p-2'>
+        <div id='skills' className='w-full lg:h-screen p-2'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
                 <h2 className='py-10 tracking-widest'>Beceriler</h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
