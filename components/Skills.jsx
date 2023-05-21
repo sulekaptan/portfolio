@@ -6,7 +6,6 @@ import js from './/../public/assets/skills/javascript-icon.png'
 import react from './/../public/assets/skills/react-icon.png'
 import next from './/../public/assets/skills/nextjs-icon.png'
 import tailwind from './/../public/assets/skills/tailwindcss-icon.png'
-import sass from './/../public/assets/skills/sass-icon.png'
 
 const Skills = () => {
     return (
@@ -73,17 +72,6 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto '>
-                                <Image className='rounded-xl' width='64' height='64' src={sass} alt='/' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>SASS</h3>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto '>
                                 <Image className='rounded-xl' width='64' height='64' src={tailwind} alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
@@ -92,8 +80,6 @@ const Skills = () => {
                         </div>
 
                     </div>
-
-
                 </div>
             </div>
         </div>
